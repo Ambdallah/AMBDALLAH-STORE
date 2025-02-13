@@ -1,0 +1,105 @@
+/* Reset de base */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    judtify-content: space-between;
+    align-items: center;
+    width: 90;
+    margin: auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: url('https://via.placeholder.com/1500x500')
+    color: #fff;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1 rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #f4a261;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #e76f51;
+}
+
+.about-section, .products-section, .contact-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    jusify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+}
+
+.product img {
+    width: 100;
+}
+
+footer {
+    text -align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 1rem;
+}
+    
